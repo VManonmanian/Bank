@@ -1,5 +1,5 @@
 package com.bank.dao;
-// HI SANTO
+// HI 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,7 +20,7 @@ public class BankDao {
 		bankRepo.saveAll(banks);
 		return "Saved banks details";
 	}
-
+//HELLO
 	public int getBalance(long acNo) {
 		return bankRepo.getBalance(acNo);
 	}
